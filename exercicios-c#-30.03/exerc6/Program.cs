@@ -14,16 +14,27 @@ int nota4 = int.Parse(Console.ReadLine());
 
 int media = (nota1 + nota2 + nota3 + nota4) / 4;
 
-if (frequencia >= 75 && media >= 7)
+if (frequencia < 75)
 {
-    Console.WriteLine($"Aluno aprovado");
-}
-
-else if (75 >= frequencia && 7 > media)
-{
-Console.WriteLine($"aluno em recuperação");
+    Console.WriteLine($"Aluno reprovado");
 }
 else
 {
-    Console.WriteLine($"Aluno reprovado"); 
+    Console.WriteLine($"Se a frequencia for maior que 75, dependendo da média do aluno tem chance a ser reavaliado!");
+
+    if (media > 7)
+    {
+        Console.WriteLine($"Aluno precisa ser reavaliado");
+    }
+
+    if (media >= 3)
+    {
+        Console.WriteLine($"Aluno precisa ser reavaliado");
+    }
+
+    if (media < 3)
+    {
+        Console.WriteLine($"Aluno reprovado");
+    }
+    
 }
