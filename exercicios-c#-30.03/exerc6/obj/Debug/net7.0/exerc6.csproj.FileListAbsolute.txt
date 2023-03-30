@@ -1,0 +1,15 @@
+C:\Users\55358961879\Desktop\projetos-c#\exercicios-c#-30.03\exerc6\bin\Debug\net7.0\exerc6.exe
+C:\Users\55358961879\Desktop\projetos-c#\exercicios-c#-30.03\exerc6\bin\Debug\net7.0\exerc6.deps.json
+C:\Users\55358961879\Desktop\projetos-c#\exercicios-c#-30.03\exerc6\bin\Debug\net7.0\exerc6.runtimeconfig.json
+C:\Users\55358961879\Desktop\projetos-c#\exercicios-c#-30.03\exerc6\bin\Debug\net7.0\exerc6.dll
+C:\Users\55358961879\Desktop\projetos-c#\exercicios-c#-30.03\exerc6\bin\Debug\net7.0\exerc6.pdb
+C:\Users\55358961879\Desktop\projetos-c#\exercicios-c#-30.03\exerc6\obj\Debug\net7.0\exerc6.csproj.AssemblyReference.cache
+C:\Users\55358961879\Desktop\projetos-c#\exercicios-c#-30.03\exerc6\obj\Debug\net7.0\exerc6.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\55358961879\Desktop\projetos-c#\exercicios-c#-30.03\exerc6\obj\Debug\net7.0\exerc6.AssemblyInfoInputs.cache
+C:\Users\55358961879\Desktop\projetos-c#\exercicios-c#-30.03\exerc6\obj\Debug\net7.0\exerc6.AssemblyInfo.cs
+C:\Users\55358961879\Desktop\projetos-c#\exercicios-c#-30.03\exerc6\obj\Debug\net7.0\exerc6.csproj.CoreCompileInputs.cache
+C:\Users\55358961879\Desktop\projetos-c#\exercicios-c#-30.03\exerc6\obj\Debug\net7.0\exerc6.dll
+C:\Users\55358961879\Desktop\projetos-c#\exercicios-c#-30.03\exerc6\obj\Debug\net7.0\refint\exerc6.dll
+C:\Users\55358961879\Desktop\projetos-c#\exercicios-c#-30.03\exerc6\obj\Debug\net7.0\exerc6.pdb
+C:\Users\55358961879\Desktop\projetos-c#\exercicios-c#-30.03\exerc6\obj\Debug\net7.0\exerc6.genruntimeconfig.cache
+C:\Users\55358961879\Desktop\projetos-c#\exercicios-c#-30.03\exerc6\obj\Debug\net7.0\ref\exerc6.dll

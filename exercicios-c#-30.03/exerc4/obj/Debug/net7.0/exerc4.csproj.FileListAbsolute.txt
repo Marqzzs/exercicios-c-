@@ -1,0 +1,15 @@
+C:\Users\55358961879\Desktop\projetos-c#\exercicios-c#-30.03\exerc4\bin\Debug\net7.0\exerc4.exe
+C:\Users\55358961879\Desktop\projetos-c#\exercicios-c#-30.03\exerc4\bin\Debug\net7.0\exerc4.deps.json
+C:\Users\55358961879\Desktop\projetos-c#\exercicios-c#-30.03\exerc4\bin\Debug\net7.0\exerc4.runtimeconfig.json
+C:\Users\55358961879\Desktop\projetos-c#\exercicios-c#-30.03\exerc4\bin\Debug\net7.0\exerc4.dll
+C:\Users\55358961879\Desktop\projetos-c#\exercicios-c#-30.03\exerc4\bin\Debug\net7.0\exerc4.pdb
+C:\Users\55358961879\Desktop\projetos-c#\exercicios-c#-30.03\exerc4\obj\Debug\net7.0\exerc4.csproj.AssemblyReference.cache
+C:\Users\55358961879\Desktop\projetos-c#\exercicios-c#-30.03\exerc4\obj\Debug\net7.0\exerc4.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\55358961879\Desktop\projetos-c#\exercicios-c#-30.03\exerc4\obj\Debug\net7.0\exerc4.AssemblyInfoInputs.cache
+C:\Users\55358961879\Desktop\projetos-c#\exercicios-c#-30.03\exerc4\obj\Debug\net7.0\exerc4.AssemblyInfo.cs
+C:\Users\55358961879\Desktop\projetos-c#\exercicios-c#-30.03\exerc4\obj\Debug\net7.0\exerc4.csproj.CoreCompileInputs.cache
+C:\Users\55358961879\Desktop\projetos-c#\exercicios-c#-30.03\exerc4\obj\Debug\net7.0\exerc4.dll
+C:\Users\55358961879\Desktop\projetos-c#\exercicios-c#-30.03\exerc4\obj\Debug\net7.0\refint\exerc4.dll
+C:\Users\55358961879\Desktop\projetos-c#\exercicios-c#-30.03\exerc4\obj\Debug\net7.0\exerc4.pdb
+C:\Users\55358961879\Desktop\projetos-c#\exercicios-c#-30.03\exerc4\obj\Debug\net7.0\exerc4.genruntimeconfig.cache
+C:\Users\55358961879\Desktop\projetos-c#\exercicios-c#-30.03\exerc4\obj\Debug\net7.0\ref\exerc4.dll
