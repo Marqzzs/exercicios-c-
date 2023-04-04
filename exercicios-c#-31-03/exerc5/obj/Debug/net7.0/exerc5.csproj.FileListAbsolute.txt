@@ -1,0 +1,15 @@
+C:\Users\55358961879\Desktop\projetos-c#\exercicios-c#\exercicios-c#-31-03\exerc5\bin\Debug\net7.0\exerc5.exe
+C:\Users\55358961879\Desktop\projetos-c#\exercicios-c#\exercicios-c#-31-03\exerc5\bin\Debug\net7.0\exerc5.deps.json
+C:\Users\55358961879\Desktop\projetos-c#\exercicios-c#\exercicios-c#-31-03\exerc5\bin\Debug\net7.0\exerc5.runtimeconfig.json
+C:\Users\55358961879\Desktop\projetos-c#\exercicios-c#\exercicios-c#-31-03\exerc5\bin\Debug\net7.0\exerc5.dll
+C:\Users\55358961879\Desktop\projetos-c#\exercicios-c#\exercicios-c#-31-03\exerc5\bin\Debug\net7.0\exerc5.pdb
+C:\Users\55358961879\Desktop\projetos-c#\exercicios-c#\exercicios-c#-31-03\exerc5\obj\Debug\net7.0\exerc5.csproj.AssemblyReference.cache
+C:\Users\55358961879\Desktop\projetos-c#\exercicios-c#\exercicios-c#-31-03\exerc5\obj\Debug\net7.0\exerc5.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\55358961879\Desktop\projetos-c#\exercicios-c#\exercicios-c#-31-03\exerc5\obj\Debug\net7.0\exerc5.AssemblyInfoInputs.cache
+C:\Users\55358961879\Desktop\projetos-c#\exercicios-c#\exercicios-c#-31-03\exerc5\obj\Debug\net7.0\exerc5.AssemblyInfo.cs
+C:\Users\55358961879\Desktop\projetos-c#\exercicios-c#\exercicios-c#-31-03\exerc5\obj\Debug\net7.0\exerc5.csproj.CoreCompileInputs.cache
+C:\Users\55358961879\Desktop\projetos-c#\exercicios-c#\exercicios-c#-31-03\exerc5\obj\Debug\net7.0\exerc5.dll
+C:\Users\55358961879\Desktop\projetos-c#\exercicios-c#\exercicios-c#-31-03\exerc5\obj\Debug\net7.0\refint\exerc5.dll
+C:\Users\55358961879\Desktop\projetos-c#\exercicios-c#\exercicios-c#-31-03\exerc5\obj\Debug\net7.0\exerc5.pdb
+C:\Users\55358961879\Desktop\projetos-c#\exercicios-c#\exercicios-c#-31-03\exerc5\obj\Debug\net7.0\exerc5.genruntimeconfig.cache
+C:\Users\55358961879\Desktop\projetos-c#\exercicios-c#\exercicios-c#-31-03\exerc5\obj\Debug\net7.0\ref\exerc5.dll
