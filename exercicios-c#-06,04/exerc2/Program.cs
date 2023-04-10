@@ -72,7 +72,7 @@ for (int i = 1; i <= 10; i++)
         if (homens == 0) {
             Console.WriteLine("Não houve homens analisados.");
         } else {
-            float porcentagemHomensNao = (float)homensnao / homens * 100;
+            double porcentagemHomensNao = (double)homensnao / homens * 100;
             Console.WriteLine($"Porcentagem de homens que responderam NÃO: {porcentagemHomensNao}%");
         }
 
