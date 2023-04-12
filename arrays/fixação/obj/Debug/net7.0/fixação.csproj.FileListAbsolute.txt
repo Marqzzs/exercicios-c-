@@ -1,0 +1,15 @@
+C:\Users\55358961879\Desktop\projetos-c#\exercicios-c#\arrays\fixação\bin\Debug\net7.0\fixação.exe
+C:\Users\55358961879\Desktop\projetos-c#\exercicios-c#\arrays\fixação\bin\Debug\net7.0\fixação.deps.json
+C:\Users\55358961879\Desktop\projetos-c#\exercicios-c#\arrays\fixação\bin\Debug\net7.0\fixação.runtimeconfig.json
+C:\Users\55358961879\Desktop\projetos-c#\exercicios-c#\arrays\fixação\bin\Debug\net7.0\fixação.dll
+C:\Users\55358961879\Desktop\projetos-c#\exercicios-c#\arrays\fixação\bin\Debug\net7.0\fixação.pdb
+C:\Users\55358961879\Desktop\projetos-c#\exercicios-c#\arrays\fixação\obj\Debug\net7.0\fixação.csproj.AssemblyReference.cache
+C:\Users\55358961879\Desktop\projetos-c#\exercicios-c#\arrays\fixação\obj\Debug\net7.0\fixação.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\55358961879\Desktop\projetos-c#\exercicios-c#\arrays\fixação\obj\Debug\net7.0\fixação.AssemblyInfoInputs.cache
+C:\Users\55358961879\Desktop\projetos-c#\exercicios-c#\arrays\fixação\obj\Debug\net7.0\fixação.AssemblyInfo.cs
+C:\Users\55358961879\Desktop\projetos-c#\exercicios-c#\arrays\fixação\obj\Debug\net7.0\fixação.csproj.CoreCompileInputs.cache
+C:\Users\55358961879\Desktop\projetos-c#\exercicios-c#\arrays\fixação\obj\Debug\net7.0\fixação.dll
+C:\Users\55358961879\Desktop\projetos-c#\exercicios-c#\arrays\fixação\obj\Debug\net7.0\refint\fixação.dll
+C:\Users\55358961879\Desktop\projetos-c#\exercicios-c#\arrays\fixação\obj\Debug\net7.0\fixação.pdb
+C:\Users\55358961879\Desktop\projetos-c#\exercicios-c#\arrays\fixação\obj\Debug\net7.0\fixação.genruntimeconfig.cache
+C:\Users\55358961879\Desktop\projetos-c#\exercicios-c#\arrays\fixação\obj\Debug\net7.0\ref\fixação.dll
