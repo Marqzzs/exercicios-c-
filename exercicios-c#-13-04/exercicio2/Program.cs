@@ -11,75 +11,63 @@
 // sabendo-se que o preço do litro da gasolina é R$ 5,30 e o preço do litro do álcool é R$ 4,90.
 // Dica: utilize switch case e funções/métodos para otimizar o algorítimo.
 
-class Program
+Console.WriteLine($"Digite o tipo de combustivel: 'A' para alcool e 'G' para gasolina");
+char tipoCombustivel = char.Parse(Console.ReadLine().ToUpper());
+
+Console.WriteLine($"Digite a quantidade de litros abastecida:");
+float qtdLitros = float.Parse(Console.ReadLine());
+
+float valorAPagar = CalcularValorAPagar(tipoCombustivel, qtdLitros);
+
+if (valorAPagar > 0)
 {
-    static void Main(string[] args)
-    {
-        // Preços dos combustíveis
-        const double PRECO_ALCOOL = 4.90;
-        const double PRECO_GASOLINA = 5.30;
-
-        // Leitura dos dados de entrada
-        Console.Write("Digite o número de litros vendidos: ");
-        double litros = double.Parse(Console.ReadLine());
-        Console.Write("Digite o tipo de combustível (A-álcool, G-gasolina): ");
-        string tipoCombustivel = Console.ReadLine().ToUpper();
-
-        // Cálculo do valor a ser pago
-        double precoUnitario = tipoCombustivel switch
-        {
-            "A" => PRECO_ALCOOL,
-            "G" => PRECO_GASOLINA,
-            _ => throw new ArgumentException("Tipo de combustível inválido.")
-        };
-
-        double desconto = litros <= 20 ? 0.03 : 0.05;
-        if (tipoCombustivel == "G")
-        {
-            desconto = litros <= 20 ? 0.04 : 0.06;
-        }
-
-        double valorTotal = litros * precoUnitario * (1 - desconto);
-
-        // Impressão do valor a ser pago
-        Console.WriteLine($"Valor a ser pago: R$ {valorTotal:F2}");
-    }
+    Console.WriteLine($"O valor a ser pago é: {valorAPagar:F2}");
 }
 
-// float preçoGasolina = 5.30;
-// float totalAlcool;
-// float totalGasolina;
+static float CalcularValorAPagar(char tipoCombustivel, float qtdLitros)
+{
+    float preçoGasolina = 5.30f;
+    float preçoAlcool = 4.90f;
+    float desconto = 0.0f;
+    float preçoLitro = 0.0f;
 
-// Console.Write("Digite o número de litros vendidos: ");
-// float litros = float.Parse(Console.ReadLine());
+    switch (tipoCombustivel)
+    {
+        case 'A':
+            preçoLitro = preçoAlcool;
+            if (qtdLitros <= 20)
+            {
+                desconto = 0.03f;
+            }
+            else
+            {
+                desconto = 0.05f;
+            }
+            break;
+        case 'G':
+            preçoLitro = preçoGasolina;
+            if (qtdLitros <= 20)
+            {
+                desconto = 0.04f;
+            }
+            else
+            {
+                desconto = 0.06f;
+            }
+            break;
+        default:
+            Console.WriteLine($"Tipo de Combustivel invalido");
+            return -1;
+    }
+    
+    float valorSemDesconto = qtdLitros * preçoLitro;
+    float valorComDesconto = valorSemDesconto * (1 - desconto);
 
-// Console.Write("Digite o tipo de combustível (A-álcool, G-gasolina): ");
-// string tipoCombustivel = Console.ReadLine().ToUpper();
+    return valorComDesconto;
 
-// static float Desconto(float preçoAlcooL, float preçoGasolina)
-// {
-//     float precoUnitario = tipoCombustivel switch
-//     {
-//         "A" => preçoAlcooL,
-//         "G" => preçoGasolina,
-//         _ => throw new ArgumentException("Tipo de combustível inválido.")
-//     };
+}
 
-//     double desconto = litros <= 20 ? 0.03 : 0.05;
-//     if (tipoCombustivel == "G")
-//     {
-//         desconto = litros <= 20 ? 0.04 : 0.06;
-//     }
 
-//     double valorTotal = litros * precoUnitario * (1 - desconto);
-
-//     // Impressão do valor a ser pago
-//     Console.WriteLine($"Valor a ser pago: R$ {valorTotal:F2}");
-//     return(totalAlcool,totalGasolina)
-
-// }
-
-// Console.WriteLine("$ O total é: {Desconto()}");
 
 
 
