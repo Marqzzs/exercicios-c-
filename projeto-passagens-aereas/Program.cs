@@ -9,76 +9,9 @@
 
 
 // // Ao cadastrar uma passagem ao final o sistema deverá perguntar se gostaria de cadastrar uma nova passagem caso contrário voltar ao menu anterior(S/N).
-// string[] nomesPassageiro = new string[5];
-// string[] origemVoo = new string[5];
-// string[] destino = new string[5];
-// string[] dataVoo = new string[5];
 
-// Console.WriteLine($"Digite o nome de usuario");
-// string usuario = Console.ReadLine();
-
-// Console.WriteLine($"Digite a senha:");
-// int senha = int.Parse(Console.ReadLine());
-
-// if (senha != 123456)
-// {
-//     Console.WriteLine($"Senha incorreta, digite novamente:");
-
-//     do
-//     {
-//         Console.WriteLine($"Digite a senha:");
-//         senha = int.Parse(Console.ReadLine());
-//     } while (false);
-// }
-
-// Console.WriteLine($"Bem Vindo {usuario}");
-
-// Console.WriteLine(@$"
-// Menu
-// 1 - cadastrar passagem
-// 2 - listar passagem
-// 3 - sair
-// ");
-// char respostaMenu = char.Parse(Console.ReadLine());
-
-// switch (respostaMenu)
-// {
-//     case '1':
-//         for (var i = 0; i <= 2; i++)
-//         {
-//             Console.WriteLine($"Digite o nome do {i + 1}º passageiro");
-//             nomesPassageiro[i] = Console.ReadLine().ToUpper();
-
-//             Console.WriteLine($"Digite a origem do voo:");
-//             origemVoo[i] = Console.ReadLine().ToUpper();
-
-//             Console.WriteLine($"Digite o destino do voo:");
-//             destino[i] = Console.ReadLine().ToUpper();
-
-//             Console.WriteLine($"Digite a data do voo:");
-//             dataVoo[i] = Console.ReadLine().ToUpper();
-//         }
-//         break;
-//     default:
-//         break;
-// }
-
-
-
-// for (var i = 0; i <= 2; i++)
-// {
-//     Console.WriteLine($"Digite o nome do {i + 1}º passageiro");
-//     nomesPassageiro[i] = Console.ReadLine().ToUpper();
-
-//     Console.WriteLine($"Digite a origem do voo:");
-//     origemVoo[i] = Console.ReadLine().ToUpper();
-
-//     Console.WriteLine($"Digite o destino do voo:");
-//     destino[i] = Console.ReadLine().ToUpper();
-
-//     Console.WriteLine($"Digite a data do voo:");
-//     dataVoo[i] = Console.ReadLine().ToUpper();
-// }
+Console.WriteLine("Digite o usuario:");
+string usuario = Console.ReadLine();
 
 Console.WriteLine("Digite a senha de acesso:");
 string senha = Console.ReadLine();
@@ -89,6 +22,9 @@ if (senha != "123456")
     return;
 }
 
+Console.WriteLine($"Bem vindo {usuario}");
+
+
 string[] nomes = new string[5];
 string[] origens = new string[5];
 string[] destinos = new string[5];
@@ -97,10 +33,16 @@ int contador = 0;
 
 while (true)
 {
-    Console.WriteLine("Selecione uma opção:");
-    Console.WriteLine("1- Cadastrar passagem");
-    Console.WriteLine("2- Listar Passagens");
-    Console.WriteLine("0- Sair");
+    Console.WriteLine(@$"
+    ____________________________
+    ║           MENU            ║
+    ║                           ║
+    ║    Selecione uma opção:   ║
+    ║    1- Cadastrar passagem  ║
+    ║    2- Listar Passagens    ║
+    ║    0- Sair                ║
+    ¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+    ");
 
     string opcao = Console.ReadLine();
 
@@ -134,8 +76,7 @@ while (true)
                 Console.WriteLine("Limite de passagens cadastradas atingido.");
                 break;
             }
-
-            continue;
+            break;
 
         case "2":
             if (contador == 0)
@@ -155,7 +96,7 @@ while (true)
 
         case "0":
             Console.WriteLine("Encerrando o programa...");
-            return;
+        return;
 
         default:
             Console.WriteLine("Opção inválida.");
