@@ -43,53 +43,11 @@ while (true)
     switch (opcao)
     {
         case "1":
-            if (contador >= 10)
-            {
-                Console.WriteLine("Limite de produtos cadastrados atingido.");
-                break;
-            }
-
-            Console.WriteLine($"Digite o nome do produto:");
-            nomes[contador] = Console.ReadLine();
-
-            Console.WriteLine($"Digite o preço do produto:");
-            preco[contador] = float.Parse(Console.ReadLine());
-
-            contador++;
-
-            Console.WriteLine("Deseja cadastrar outro produto? (S/N)");
-            string resposta = Console.ReadLine();
-
-            if (resposta.ToUpper() == "N")
-            {
-                break;
-            }
-
+        AdicionarProduto(ref nomes, ref preco, ref contador);
             break;
 
         case "2":
-            if (contador == 0)
-            {
-                Console.WriteLine("Nenhum produto cadastrado.");
-                break;
-            }
-            
-            Console.WriteLine("Lista de produtos:");
-
-            estaEmPromocao[contador] = preco[contador] > 10;
-
-            for (int i = 0; i < contador; i++)
-            {
-                float precoFinal = preco[i];
-                if (estaEmPromocao[i])
-                {
-                    float desconto = preco[i] * 0.02f;
-                    float precoPromocional = preco[i] - desconto;
-                    precoFinal = precoPromocional;
-                }
-                Console.WriteLine($"Produto: {nomes[i]}, Preço: R${preco[i]}, Preço Final: {precoFinal:F2}");
-            }
-
+        ListarProdutos(nomes, preco, estaEmPromocao, contador);
             break;
 
         case "0":
@@ -99,6 +57,68 @@ while (true)
         default:
             Console.WriteLine($"Opção inválida.");
             break;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+static void ListarProdutos(string[] nomes, float[] preco, bool[] estaEmPromocao, int contador)
+{
+    if (contador == 0)
+    {
+        Console.WriteLine("Nenhum produto cadastrado.");
+        return;
+    }
+
+    Console.WriteLine("Lista de produtos:");
+
+    for (int i = 0; i < contador; i++)
+    {
+        float precoFinal = preco[i];
+        estaEmPromocao[i] = preco[i] > 10;
+
+        if (estaEmPromocao[i])
+        {
+            float desconto = preco[i] * 0.02f;
+            float precoPromocional = preco[i] - desconto;
+            precoFinal = precoPromocional;
+        }
+
+        Console.WriteLine($"Produto: {nomes[i]}, Preço: R${preco[i]}, Preço Final: {precoFinal:F2}");
+    }
+}
+
+static void AdicionarProduto(ref string[] nomes, ref float[] preco, ref int contador)
+{
+    if (contador >= 10)
+    {
+        Console.WriteLine("Limite de produtos cadastrados atingido.");
+        return;
+    }
+
+    Console.WriteLine($"Digite o nome do produto:");
+    nomes[contador] = Console.ReadLine();
+
+    Console.WriteLine($"Digite o preço do produto:");
+    preco[contador] = float.Parse(Console.ReadLine());
+
+    contador++;
+
+    Console.WriteLine("Deseja cadastrar outro produto? (S/N)");
+    string resposta = Console.ReadLine();
+
+    if (resposta.ToUpper() == "N")
+    {
+        return;
     }
 }
 
