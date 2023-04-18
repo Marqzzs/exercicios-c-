@@ -1,0 +1,15 @@
+C:\Users\55358961879\Desktop\projetos-c#\exercicios-c#\projeto-produtos\bin\Debug\net7.0\projeto-produtos.exe
+C:\Users\55358961879\Desktop\projetos-c#\exercicios-c#\projeto-produtos\bin\Debug\net7.0\projeto-produtos.deps.json
+C:\Users\55358961879\Desktop\projetos-c#\exercicios-c#\projeto-produtos\bin\Debug\net7.0\projeto-produtos.runtimeconfig.json
+C:\Users\55358961879\Desktop\projetos-c#\exercicios-c#\projeto-produtos\bin\Debug\net7.0\projeto-produtos.dll
+C:\Users\55358961879\Desktop\projetos-c#\exercicios-c#\projeto-produtos\bin\Debug\net7.0\projeto-produtos.pdb
+C:\Users\55358961879\Desktop\projetos-c#\exercicios-c#\projeto-produtos\obj\Debug\net7.0\projeto-produtos.csproj.AssemblyReference.cache
+C:\Users\55358961879\Desktop\projetos-c#\exercicios-c#\projeto-produtos\obj\Debug\net7.0\projeto-produtos.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\55358961879\Desktop\projetos-c#\exercicios-c#\projeto-produtos\obj\Debug\net7.0\projeto-produtos.AssemblyInfoInputs.cache
+C:\Users\55358961879\Desktop\projetos-c#\exercicios-c#\projeto-produtos\obj\Debug\net7.0\projeto-produtos.AssemblyInfo.cs
+C:\Users\55358961879\Desktop\projetos-c#\exercicios-c#\projeto-produtos\obj\Debug\net7.0\projeto-produtos.csproj.CoreCompileInputs.cache
+C:\Users\55358961879\Desktop\projetos-c#\exercicios-c#\projeto-produtos\obj\Debug\net7.0\projeto-produtos.dll
+C:\Users\55358961879\Desktop\projetos-c#\exercicios-c#\projeto-produtos\obj\Debug\net7.0\refint\projeto-produtos.dll
+C:\Users\55358961879\Desktop\projetos-c#\exercicios-c#\projeto-produtos\obj\Debug\net7.0\projeto-produtos.pdb
+C:\Users\55358961879\Desktop\projetos-c#\exercicios-c#\projeto-produtos\obj\Debug\net7.0\projeto-produtos.genruntimeconfig.cache
+C:\Users\55358961879\Desktop\projetos-c#\exercicios-c#\projeto-produtos\obj\Debug\net7.0\ref\projeto-produtos.dll

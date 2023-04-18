@@ -96,7 +96,7 @@ while (true)
 
         case "0":
             Console.WriteLine("Encerrando o programa...");
-        return;
+            return;
 
         default:
             Console.WriteLine("Opção inválida.");
