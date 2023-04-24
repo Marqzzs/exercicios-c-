@@ -1,0 +1,15 @@
+C:\Users\55358961879\Desktop\aluno-POO\bin\Debug\net7.0\aluno-POO.exe
+C:\Users\55358961879\Desktop\aluno-POO\bin\Debug\net7.0\aluno-POO.deps.json
+C:\Users\55358961879\Desktop\aluno-POO\bin\Debug\net7.0\aluno-POO.runtimeconfig.json
+C:\Users\55358961879\Desktop\aluno-POO\bin\Debug\net7.0\aluno-POO.dll
+C:\Users\55358961879\Desktop\aluno-POO\bin\Debug\net7.0\aluno-POO.pdb
+C:\Users\55358961879\Desktop\aluno-POO\obj\Debug\net7.0\aluno-POO.csproj.AssemblyReference.cache
+C:\Users\55358961879\Desktop\aluno-POO\obj\Debug\net7.0\aluno-POO.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\55358961879\Desktop\aluno-POO\obj\Debug\net7.0\aluno-POO.AssemblyInfoInputs.cache
+C:\Users\55358961879\Desktop\aluno-POO\obj\Debug\net7.0\aluno-POO.AssemblyInfo.cs
+C:\Users\55358961879\Desktop\aluno-POO\obj\Debug\net7.0\aluno-POO.csproj.CoreCompileInputs.cache
+C:\Users\55358961879\Desktop\aluno-POO\obj\Debug\net7.0\aluno-POO.dll
+C:\Users\55358961879\Desktop\aluno-POO\obj\Debug\net7.0\refint\aluno-POO.dll
+C:\Users\55358961879\Desktop\aluno-POO\obj\Debug\net7.0\aluno-POO.pdb
+C:\Users\55358961879\Desktop\aluno-POO\obj\Debug\net7.0\aluno-POO.genruntimeconfig.cache
+C:\Users\55358961879\Desktop\aluno-POO\obj\Debug\net7.0\ref\aluno-POO.dll
